@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 30px 83px;
+    background-color: #000;
+}
+
+.grow-list{
+    flex-grow: 1;
+}
+
+img{
+    width: 92px;
+    height: 32px;
+}
+
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: white;
+    margin-left: 63px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 63px;
+    align-items: center;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-left: 63px;
+}
+
+.btn-small{
+    padding: 8px 30px;
+    background-color: #ba0cc5;
+    color: white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+    border: none;
+}
+
+/* Hero */
+
+.hero{
+    background-image: url(./assests/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    text-align: center;
+}
+
+.hero-heading{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+    font-style: normal;
+    padding-top: 172px;
+    text-align: center;
+}
+
+.hero-desc{
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.btn-large{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ba0cc5;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 60px;
+    cursor: pointer;
+
+}
